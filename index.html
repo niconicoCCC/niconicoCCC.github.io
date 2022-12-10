@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北京智信遥感地理信息技术有限公司官网</title>
+    <style>
+        .main{
+            text-align: center;
+        }
+        .hatred{
+            position: fixed;
+            left: 12px;
+            top: 50%;
+            transform: translate(0,-50%);
+            font-size:40px;
+            font-weight:700;
+            width: 40px;
+        }
+        .hatred2{
+            position: fixed;
+            right: 12px;
+            top: 50%;
+            transform: translate(0,-50%);
+            font-size:40px;
+            font-weight:700;
+            width: 40px;
+        }
+        img{
+            position: absolute;
+            right: 450px;
+            top: 12px;
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="./gongzei.png" alt="">
+        <header style="color:red;font-size:25px;font-weight:700;">北京智信遥感地理信息技术有限公司</header>
+        <h1>招聘-广纳英杰</h1>
+        <article style="margin:120px 0;">
+            <h3>以下恶行👇👇👇👇</h3>
+            <p>公司实行弹性不打卡机制，为什么呢？因为公司辞退您以后害怕您去劳动仲裁，打卡就成了证据。<span style="color:green;font-size:18px;font-weight:500;">不过在职员工可以每天用视频记录加班开始结束时间，且保留微信中加班时间的工作聊天记录哦！</span></p>
+            <p  style="color:red;font-size:25px;font-weight:700;">无偿996加班，周六保证不休息，周天休息不保证！</p>
+            <p>临时急事必须赶到，请假不准许！</p>
+            <p><span style="color:red;font-size:20px;">总经办——杨*民</span>实属工贼、伪奋斗逼；喜欢下班后、周末挑时间开会，开会及其频繁，还搞内部斗争！这人智商情商双低，仿佛员工无偿加班就是应该的！经典思想：“哪有互联网公司不加班！”可是哪有长期无偿996的？</p>
+            <p><span style="color:red;font-size:20px;">年前画饼，年底裁人！</span>年终奖虽然高，但是拿不到！懂吗？</p>
+            <p>年底裁了人会让你签不平等条约！中心思想就是“傻逼员工赶快滚.......”</p>
+            <p>如果不滚连当月工资都不给你，就等你去仲裁！</p>
+        </article>
+        <article>
+            <h1>讨贼檄文</h1>
+            <p>
+                贼，谋利之徒，古已有之，人皆诛之。然亘古不灭，始于贪心难除。大贪大贼，小贪小贼。大贼窃国，小贼窃物，皆以法外之举，损人肥己，为世人不容。
+            </p>
+            <p>
+                家舍为贼侵扰有三。一也亡币千元、灯具一盏；二也失茶油一壶、古币若干；三也盗币二万。余有撕之踹之啖之之心，贼欺予哉？古人物力维艰，仍耻饮盗泉水。而今乾坤朗朗，大道通衢，然贼固穷不变，好逸恶劳，越祸于民，人神共愤。
+            </p>
+        </article>
+        <footer style="margin:50px 0;">
+            <span style="color:red;font-size:25px;font-weight:700;">这种无情无义的公司，期待着您的加入！</span>
+        </footer>
+    </div>
+    <script>
+        var Tname="死工贼就应该挂路灯";
+        var Tlen=Tname.length;
+        document.write("<p id='a' class='hatred'>"+Tname+"</p>");
+        document.write("<p id='b' class='hatred2'>"+Tname+"</p>");
+        var col=new Array("#FFCC00","#3333FF","#FFCC00","#FF0000","#FFCC00","#CC33FF");
+        var ic=0;
+        function Dcolor(){
+          var Strname="";
+          for (i=0;i<Tlen;++i){
+            var Strname=Strname+"<font color="+col[ic]+">"+Tname.substring(i,i+1)+"</font>";
+           ic=ic+1;
+           if (ic==col.length) ic=0;
+          }
+          a.innerHTML=Strname;
+          b.innerHTML=Strname;
+          setTimeout("Dcolor()",200);
+        }
+        Dcolor();
+    </script>
+</body>
+</html>
